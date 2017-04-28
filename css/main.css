@@ -1,0 +1,29 @@
+.if-section {
+  background-color: black;
+  height: 600px;
+  width: 1000px;
+}
+ .if-section img{
+   width: 300px;
+ }
+
+.if-body-copy {
+  color: white;
+  position: relative;
+  top: -170px;
+  left: 240px;
+}
+
+.if-body-copy~p {
+  left: 240px;
+}
+
+.lower-section h1{
+  color: red;
+}
+
+#website {
+  margin-left: 200px;
+  color: gray;
+  font-size: 1.5em;
+}

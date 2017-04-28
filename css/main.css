@@ -1,7 +1,7 @@
 .if-section {
   background-color: black;
   height: 415px;
-  width: 800px;
+  width: 680px;
 }
  .if-section img{
    width: 325px;
@@ -10,28 +10,38 @@
 .if-body-copy {
   color: white;
   position: relative;
-  top: -200px;
-  left: 240px;
+  top: -230px;
+  left: 300px;
 }
 
-.if-body-copy~p {
-  left: 240px;
+.if-body-copy p:nth-child(2) {
+  padding-left: 25px;
 }
 
 #red-heading{
   color: red;
+  margin-top: 40px;
+}
 
+#line{
+  width: 750px;
+  margin-top: -28px;
 }
 
 #website {
   margin-left: 200px;
-  margin-top: -20px;
+  margin-top: -15px;
+  margin-bottom: 20px;
   color: gray;
   font-size: 1.5em;
 }
 
 #adobe{
   width: 200px;
-  margin-left: 550px;
-  margin-top: -100px;
+  margin-left: 480px;
+  margin-top: -30px;
+}
+
+.lower-section p{
+  margin: 5px;
 }

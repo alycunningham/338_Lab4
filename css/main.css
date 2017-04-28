@@ -1,7 +1,8 @@
 .if-section {
   background-color: black;
-  height: 415px;
+  height: 424px;
   width: 680px;
+  padding-top: 20px;
 }
  .if-section img{
    width: 325px;
@@ -24,7 +25,7 @@
 }
 
 #line{
-  width: 750px;
+  width: 700px;
   margin-top: -28px;
 }
 
@@ -44,4 +45,14 @@
 
 .lower-section p{
   margin: 5px;
+}
+
+.lower-section h2{
+  font-size: 1em;
+  margin-top: 25px;
+}
+
+ul{
+  margin-left: -22px;
+  margin-top: -12px;
 }
